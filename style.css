@@ -1,0 +1,96 @@
+body {
+	padding: 0%;
+	margin: 0%;
+	background-image: url("src/washington-square-park-new-york-computer-r289vqbwfrl8e5i7.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+@media screen and (max-width: 1041px) {
+	body {
+		background-image: url("src/madhu-shesharam-KQZZCVyEWVk-unsplash.jpg");
+	}
+	.page-name a {
+		font-size: smaller;
+	}
+}
+
+.page-name {
+	padding-left: 15px;
+	display: flex;
+	align-items: center;
+}
+.page-name a {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	font-size: xx-large;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: blue;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+}
+.header-menu {
+	padding-right: 15px;
+	display: flex;
+	align-items: center;
+}
+.header-menu a {
+	color: white;
+	text-decoration: none;
+	font-weight: bolder;
+	font-family: monospace;
+	font-size: x-large;
+	padding: 10px;
+}
+.header-menu span {
+	width: 1000px;
+	height: 500px;
+}
+
+.content img {
+	width: 300px;
+	height: 210px;
+	border-radius: 10px;
+}
+main {
+	/* position: relative; */
+	padding-top: 55px;
+}
+
+.content-title {
+	text-decoration: underline;
+	font-family: monospace;
+	font-weight: bolder;
+	font-size: x-large;
+}
+.content {
+	background-color: blue;
+	color: white;
+	border-radius: 15px;
+	padding: 20px;
+	border: 2px;
+	padding-top: 19px;
+	/* height: 300px; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.content-bio {
+	text-align: center;
+	width: 330px;
+}
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+main section {
+	margin: 10px;
+}
