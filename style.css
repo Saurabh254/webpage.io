@@ -23,7 +23,8 @@ body {
 }
 .page-name a {
 	text-decoration: none;
-	color: white;
+	color: #0b2361;
+	font-weight: bolder;
 	padding: 10px;
 	text-align: center;
 	font-size: xx-large;
@@ -31,7 +32,8 @@ body {
 header {
 	display: flex;
 	justify-content: space-between;
-	background-color: blue;
+	background-color: #aac1ff;
+	color: black;
 	width: 100%;
 	height: 50px;
 	position: fixed;
@@ -42,12 +44,15 @@ header {
 	align-items: center;
 }
 .header-menu a {
-	color: white;
+	color: #0b2361;
 	text-decoration: none;
-	font-weight: bolder;
 	font-family: monospace;
 	font-size: x-large;
 	padding: 10px;
+}
+.header-menu a:hover {
+	font-weight: bold;
+	color: rgb(0, 48, 151);
 }
 .header-menu span {
 	width: 1000px;
@@ -71,17 +76,24 @@ main {
 	font-size: x-large;
 }
 .content {
-	background-color: blue;
-	color: white;
+	background-color: #aac1ff86;
+	color: black;
+	font-weight: bold;
 	border-radius: 15px;
 	padding: 20px;
 	border: 2px;
 	padding-top: 19px;
-	/* height: 300px; */
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
+
+.content:hover {
+	box-shadow: 2px 2px 5px 2px black;
+	cursor: pointer;
+}
+
 .content-bio {
 	text-align: center;
 	width: 330px;
